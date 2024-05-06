@@ -10,9 +10,9 @@ def contact(request):
 def about(request):
     return render(request,'root/about.html')
 
-def support(request):
-    return render(request,'root/support.html')
+def register(request):
+    return render(request,'root/register.html')
 
-def profile(request):
-    return render(request,'root/profile.html')
+# def services(request):
+#     return render(request,'root/services.html')
 # Create your views here.
